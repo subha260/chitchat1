@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon backend/server.js",
-    "start": "node backend/server.js",
-    "client": "npm start --prefix frontend",
-    "clientInstall": "npm install --prefix frontend",
-    "build":"npm i --prefix frontend",
-    "dev": "concurrently \" npm run server \" \" npm run client \""
+    "dev": "nodemon backend/server.js",
+    "build":"npm i"
   },
   "keywords": [],
   "author": "subhendu",
